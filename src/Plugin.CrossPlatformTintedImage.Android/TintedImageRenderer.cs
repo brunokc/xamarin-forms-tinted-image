@@ -1,4 +1,5 @@
 ﻿using System;
+using Android.Content;
 using Android.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
@@ -12,7 +13,7 @@ namespace Plugin.CrossPlatformTintedImage.Android
 {
     public class TintedImageRenderer : ImageRenderer
     {
-        public static void Init()
+        public TintedImageRenderer(Context context) : base(context)
         {
         }
 

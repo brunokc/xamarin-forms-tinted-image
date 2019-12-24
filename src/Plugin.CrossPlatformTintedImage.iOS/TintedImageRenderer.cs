@@ -9,7 +9,7 @@ namespace Plugin.CrossPlatformTintedImage.iOS
 {
     public class TintedImageRenderer : ImageRenderer
     {
-        public static void Init()
+        public static new void Init()
         {
         }
 
